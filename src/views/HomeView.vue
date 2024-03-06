@@ -14,9 +14,9 @@ export default {
 </script>
 
 <template>
-
+  <switchNtns class="" />
   <main class="w-full bg-neutral-200 px-[8%] py-[5%] ">
-    <switchNtns/>
+    
     <div class="items-box  flex justify-around gap-[20px]  gap-y-[50px] flex-wrap ">
       <!-- 這裏面放商品卡 -->
       <itemCard />

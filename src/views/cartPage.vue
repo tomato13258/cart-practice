@@ -51,10 +51,21 @@ export default {
 
 
     <div class="flex justify-around">
-      <returnBtn content="返回上一頁" bgColor="bg-slate-600" @click="returnClick" />
-      <router-link to="/cartPageInput" class="">下一步</router-link>
+      <returnBtn content="返回上一頁" bgColor="bg-slate-600" @click="returnClick" class="btn" />
+      <router-link to="/cartPageInput" class="btn bg-slate-600 p-[10px] text-neutral-200 font-bold rounded-[5px]">下一步</router-link>
     </div>
   </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+.btn {
+  transition: .3s;
+}
+
+.btn:hover {
+  background-color: #c98333;
+
+}
+
+
+</style>
