@@ -31,6 +31,11 @@ export default {
   <main class="w-full bg-neutral-200 px-[8%] py-[5%]  ">
 
     <div class="items-box  flex justify-around flex-wrap mb-[10px] ">
+      <div class="w-[80%]  flex justify-start mb-[50px] items-center">
+      <span class="text-[24px]  text-slate-400 mr-[20px]">Step 1.確認商品資訊</span>
+      <span class="text-[28px] font-black  text-slate-600">>>Step 2.填寫收件資訊</span>
+      
+    </div>
       <!-- 這裏面放商品卡 -->
       <div class="w-[80%] h-[150px] bg-slate-500  flex ">
         <img src="https://fakeimg.pl/150x150/000000,100/f7c995,200" class="">

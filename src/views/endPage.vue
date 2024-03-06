@@ -73,33 +73,27 @@ export default {
           <span class="text-[28px] font-bold text-[#f7c995] ">訂單資訊</span>
           <div class="mb-[10px] mt-[20px]">
             <span class="font-bold text-gray-200 mr-[20px]">姓名:</span>
-            <input type="text">
+            <span class="font-bold text-gray-200">我是訂購人資訊</span>
           </div>
           <div class="mb-[10px]">
             <span class="font-bold text-gray-200 mr-[20px]">電話:</span>
-            <input type="tel">
+            <span class="font-bold text-gray-200">我是訂購人資訊</span>
           </div>
           <div class="mb-[10px]">
             <span class="font-bold text-gray-200 mr-[20px]">地址:</span>
-            <input type="text">
+            <span class="font-bold text-gray-200">我是訂購人資訊</span>
           </div>
           <div class="mb-[30px]">
             <span class="font-bold text-gray-200 mr-[20px] ">信箱:</span>
-            <input type="e-mail">
+            <span class="font-bold text-gray-200">我是訂購人資訊</span>
           </div>
           <div class="">
             <span class="font-bold text-gray-200 mr-[20px]">付款方式:</span>
-            <input type="radio" name="pay" id="pay1" class="mr-[20px]">
-            <label for="pay1" class="mr-[20px] text-gray-200 font-bold">信用卡</label>
-            <input type="radio" name="pay" id="pay2" class="mr-[20px]">
-            <label for="pay2" class="mr-[20px] text-gray-200 font-bold">貨到付款</label>
+            <span class="font-bold text-gray-200">我是訂購人資訊</span>
           </div>
           <div class="">
             <span class="font-bold text-gray-200 mr-[20px]">運送方式:</span>
-            <input type="radio" name="deliver" id="deliver1" class="mr-[20px]">
-            <label for="deliver1" class="mr-[40px] text-gray-200 font-bold">宅配</label>
-            <input type="radio" name="deliver" id="deliver2" class="mr-[20px]">
-            <label for="deliver2" class="mr-[20px] text-gray-200 font-bold">超商取貨</label>
+            <span class="font-bold text-gray-200">我是訂購人資訊</span>
           </div>
         </div>
       </div>
