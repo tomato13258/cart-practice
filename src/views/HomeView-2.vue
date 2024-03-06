@@ -36,13 +36,6 @@ export default {
           </div>
         </div>
       </div>
-      <itemCard2/>
-    <itemCard2/>
-    <itemCard2/>
-    <itemCard2/>
-    <itemCard2/>
-    <itemCard2/>
-    <itemCard2/>
     </div>
   </main>
 </template>

@@ -55,7 +55,7 @@ export default {
       </div>
 
     </div>
-    <div class=" w-full   flex justify-center mb-[150px] ">
+    <div class=" w-full   flex justify-center mb-[100px] ">
       <div class="bg-slate-500 w-[80%] pt-[50px] pb-[50px]">
         <div class="ml-[150px] ">
           <span class="text-[28px] font-bold text-[#f7c995] ">填寫購買人資訊</span>
