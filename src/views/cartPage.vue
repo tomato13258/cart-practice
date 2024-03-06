@@ -52,7 +52,7 @@ export default {
 
     <div class="flex justify-around">
       <returnBtn content="返回上一頁" bgColor="bg-slate-600" @click="returnClick" />
-      <returnBtn content="下一步" bgColor="bg-[#c98333]" />
+      <router-link to="/cartPageInput" class="">下一步</router-link>
     </div>
   </main>
 </template>

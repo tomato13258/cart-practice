@@ -1,5 +1,6 @@
 <script>
-import switchBtns from '@/components/switch-ntns.vue'
+// import switchBtns from '@/components/switch-ntns.vue'
+
 
 // import { RouterLink, RouterView } from 'vue-router'
 // import HelloWorld from './components/HelloWorld.vue'
@@ -25,7 +26,7 @@ export default{
 
   },
   components:{
-    switchBtns,
+    // switchBtns,
 
   },
 };
@@ -42,10 +43,12 @@ export default{
         </div>
       </div>
     </nav>
-   <switchBtns v-show="showValue" @returnClick="returnShow" />
+   <!-- <switchBtns v-show="showValue" @returnClick="returnShow" /> -->
     <RouterView />
     <footer class="w-full h-[100px] bg-slate-700"></footer>
   </div>
+
+  
   
 </template>
 
