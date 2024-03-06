@@ -56,11 +56,11 @@ export default {
       </div>
       <div class="flex justify-around bg-slate-600 w-[80%] py-[30px] text-gray-200">
         <div class="">
-          <span>商品數量:</span>
+          <span class="mr-[10px]">商品數量:</span>
           <span class="">2</span>
         </div>
         <div class="">
-          <span>商品總金額:</span>
+          <span class="mr-[10px]">商品總金額:</span>
           <span class="">5000</span>
           <span class="">元</span>
         </div>

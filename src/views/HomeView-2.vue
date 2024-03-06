@@ -21,7 +21,7 @@ export default {
       <!-- 這裏面放商品卡 -->
       <div class="w-[80%] h-[250px] bg-slate-500  rounded-[5px] flex ">
         <img src="https://fakeimg.pl/250x250/000000,100/f7c995,200" class="">
-        <div class="item-text-box  px-[10px]">
+        <div class="item-text-box  px-[10px] pt-[10px]">
           <div class=" text-[28px]  font-bold text-neutral-200 mb-[10px]">我是商品</div>
           <div class=" text-[14px] text-neutral-300 mb-[50px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been  </div>
           <div class="text-[#f7c995] mb-[40px] font-bold">＄400 NT</div>
