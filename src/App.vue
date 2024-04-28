@@ -1,7 +1,5 @@
 <script>
 // import switchBtns from '@/components/switch-ntns.vue'
-
-
 // import { RouterLink, RouterView } from 'vue-router'
 // import HelloWorld from './components/HelloWorld.vue'
 

@@ -3,14 +3,13 @@ export default{
   data(){
     return{
       switchOn:1,
-
     }
 
   },
   methods:{
     switchBtn(e){
       this.switchOn=e;
-      console.log(e);
+      // console.log(e);
     },
 
   },
@@ -18,13 +17,13 @@ export default{
 }
 </script>
 <template>
-     <div class="change-btn-all w-full bg-neutral-200 px-[9%]  flex  justify-end" >
-      <router-link to="/" class="change-btn rounded-[5px] bg-slate-300 py-[10px] px-[15px] mr-[10px]" :class="{ 'active': switchOn === 1 }" @click="switchBtn(1)">
-      <img src="../components/icons/square-2.svg" alt="">
-    </router-link>
-    <router-link to="/home2" class="change-btn rounded-[5px] bg-slate-300 py-[5px] px-[10px]" :class="{ 'active': switchOn === 2 }" @click="switchBtn(2)">
-      <img src="../components/icons/ractan.svg" alt="">
-    </router-link>
+     <div class="change-btn-all w-full bg-neutral-200 px-[9%] flex justify-end" >
+      <butten class="change-btn rounded-[5px] bg-slate-300 py-[10px] px-[15px] mr-[10px] cursor-pointer" :class="{ 'active': switchOn === 1 }" @click="switchBtn(1)">
+      <img src="../components/icons/square-2.svg" alt="商品格狀顯示">
+     </butten>
+    <butten to="/home2" class="change-btn rounded-[5px] bg-slate-300 py-[5px] px-[10px] cursor-pointer" :class="{ 'active': switchOn === 2 }" @click="switchBtn(2)">
+      <img src="../components/icons/ractan.svg" alt="商品直橫條狀顯示">
+    </butten>
     </div>
 </template>
 
