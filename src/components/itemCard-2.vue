@@ -37,9 +37,9 @@ export default {
             <!--按鈕組 -->
             <div class="">
               <div class="flex justify-start mb-[5px]">
-                <button class="itemBtn w-[30px] h-[30px] bg-slate-800 flex items-center justify-center text-white">-</button>
+                <button class="itemBtn-l w-[30px] h-[30px] bg-slate-800 flex items-center justify-center text-white">-</button>
                 <div class="bg-gray-100 w-full  h-[30px] text-[20px] text-center">1</div>
-                <button class="itemBtn w-[30px] h-[30px] bg-slate-800 flex items-center justify-center text-white">+</button>
+                <button class="itemBtn-r w-[30px] h-[30px] bg-slate-800 flex items-center justify-center text-white">+</button>
               </div>
               <butten class="add-cart w-[100%] h-[30px] bg-slate-800 flex items-center justify-center text-white text-[16px] rounded-[5px] cursor-pointer">加入購物車</butten>
             </div>
@@ -55,5 +55,12 @@ export default {
 .itemBtn:hover,.add-cart:hover{
   background-color: #c98333;
  
+}
+.itemBtn-l {
+  border-radius: 5px 0 0 5px;
+}
+
+.itemBtn-r {
+  border-radius: 0 5px 5px 0;
 }
 </style>

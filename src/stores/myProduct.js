@@ -13,7 +13,7 @@ export const useCounterStore = defineStore('counter', {
         },
         {
           id:2,
-          productName:'雷射表機',
+          productName:'雷射印表機',
           price:5300,
         },
         {
